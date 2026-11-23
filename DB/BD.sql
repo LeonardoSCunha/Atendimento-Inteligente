@@ -16,8 +16,9 @@ CREATE TABLE IF NOT EXISTS departaments (
 
 #INSERT INTO departaments (departament_name,classification,activities) VALUES ('Financeiro','monetario','cobranças, estornos, segunda via, negociação de débitos.')
 #INSERT INTO departaments (departament_name,classification,activities) VALUES ('Suporte Técnico','tecnico','quedas de conexão, lentidão, equipamentos, visita técnica.')
-INSERT INTO departaments (departament_name,classification,activities) VALUES ('Retenção','tecnico','quedas de conexão, lentidão, equipamentos, visita técnica.')
-INSERT INTO departaments (departament_name,classification,activities) VALUES ('Suporte Técnico','tecnico','quedas de conexão, lentidão, equipamentos, visita técnica.')
+#INSERT INTO departaments (departament_name,classification,activities) VALUES ('Retenção','atendimento','clientes que pedem cancelamento ou ameaçam sair.')
+#INSERT INTO departaments (departament_name,classification,activities) VALUES ('Comercial','suporte_comercial','troca de plano, novas contratações, mudança de endereço.')
+#INSERT INTO departaments (departament_name,classification,activities) VALUES ('Ouvidoria','suporte','reclamações formais, casos recorrentes, risco jurídico.')
 
 CREATE TABLE IF NOT EXISTS sort (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -33,3 +34,9 @@ CREATE TABLE IF NOT EXISTS platform  (
     register_clients INT NOT NULL,
     quant_messages INT NOT NULL
 )
+
+#INSERT INTO platform (plataform_name,register_clients,quant_messages) VALUES ('Whatsapp','0','0')
+#INSERT INTO platform (plataform_name,register_clients,quant_messages) VALUES ('email','0','0')
+#INSERT INTO platform (plataform_name,register_clients,quant_messages) VALUES ('app','0','0')
+
+
